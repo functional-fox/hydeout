@@ -1,5 +1,8 @@
 # Hydeout
 
+This project is a fork of the [original Hydeout theme](https://github.com/fongandrew/hydeout) by Andrew Fong.
+This fork exists to remove SASS code that is now considered deprecated.
+
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
 
@@ -9,12 +12,12 @@ theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
 
 ### Usage
 
-Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
-Add `gem "jekyll-theme-hydeout", "~> 4.1"` to your Gemfile and run
+Hydeout is available as the `jekyll-theme-hydeout-funfox` Ruby Gem.
+Add `gem "jekyll-theme-hydeout-funfox", "~> 1.0"` to your Gemfile and run
 `bundle install`.
 
-If you're installing on Github pages, you may also have to add
-`remote_theme: fongandrew/hydeout` to your `_config.yml`. [See the Github
+If you're installing on GitHub pages, you may also have to add
+`remote_theme: functional-fox/hydeout` to your `_config.yml`. [See the GitHub
 instructions for more details.](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)
 
 Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
